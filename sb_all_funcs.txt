@@ -1,0 +1,359 @@
+// Constructors
+
+// Initializes a new instance of the StringBuilder class.
+StringBuilder() {
+
+}
+
+// Initializes a new instance of the StringBuilder class using the specified capacity.
+StringBuilder(Int32) {
+
+}
+
+// Initializes a new instance of the StringBuilder class that starts with a specified capacity and can grow to a specified maximum.
+StringBuilder(Int32, Int32) {
+
+}
+
+// Initializes a new instance of the StringBuilder class using the specified string.
+StringBuilder(String) {
+
+}
+
+// Initializes a new instance of the StringBuilder class using the specified string and capacity.
+StringBuilder(String, Int32) {
+
+}
+
+// Initializes a new instance of the StringBuilder class from the specified substring and capacity.
+StringBuilder(String, Int32, Int32, Int32) {
+
+}
+
+
+// Properties
+
+// Gets or sets the maximum number of characters that can be contained in the memory allocated by the current instance.
+Capacity
+
+// Gets or sets the character at the specified character position in this instance.
+Chars[Int32]
+
+// Gets or sets the length of the current StringBuilder object.
+Length
+
+// Gets the maximum capacity of this instance.
+MaxCapacity
+
+
+// Methods
+
+// Appends the string representation of a specified Boolean value to this instance.
+Append(Boolean) {
+
+}
+
+// Appends the string representation of a specified 8-bit unsigned integer to this instance.
+Append(Byte) {
+
+}
+
+// Appends the string representation of a specified Char object to this instance.
+Append(Char) {
+
+}
+
+// Appends an array of Unicode characters starting at a specified address to this instance.
+Append(Char*, Int32) {
+
+}
+
+// Appends a specified number of copies of the string representation of a Unicode character to this instance.
+Append(Char, Int32) {
+
+}
+
+// Appends the string representation of the Unicode characters in a specified array to this instance.
+Append(Char[]) {
+
+}
+
+// Appends the string representation of a specified subarray of Unicode characters to this instance.
+Append(Char[], Int32, Int32) {
+
+}
+
+// Appends the string representation of a specified decimal number to this instance.
+Append(Decimal) {
+
+}
+
+// Appends the string representation of a specified double-precision floating-point number to this instance.
+Append(Double) {
+
+}
+
+// Appends the string representation of a specified 16-bit signed integer to this instance.
+Append(Int16) {
+
+}
+
+// Appends the string representation of a specified 32-bit signed integer to this instance.
+Append(Int32) {
+
+}
+
+// Appends the string representation of a specified 64-bit signed integer to this instance.
+Append(Int64) {
+
+}
+
+// Appends the string representation of a specified object to this instance.
+Append(Object) {
+
+}
+
+// Appends the string representation of a specified 8-bit signed integer to this instance.
+Append(SByte) {
+
+}
+
+// Appends the string representation of a specified single-precision floating-point number to this instance.
+Append(Single) {
+
+}
+
+// Appends a copy of the specified string to this instance.
+Append(String) {
+
+}
+
+// Appends a copy of a specified substring to this instance.
+Append(String, Int32, Int32) {
+
+}
+
+// Appends the string representation of a specified 16-bit unsigned integer to this instance.
+Append(UInt16) {
+
+}
+
+// Appends the string representation of a specified 32-bit unsigned integer to this instance.
+Append(UInt32) {
+
+}
+
+// Appends the string representation of a specified 64-bit unsigned integer to this instance.
+Append(UInt64) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a single argument using a specified format provider.
+AppendFormat(IFormatProvider, String, Object) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of two arguments using a specified format provider.
+AppendFormat(IFormatProvider, String, Object, Object) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of three arguments using a specified format provider.
+AppendFormat(IFormatProvider, String, Object, Object, Object) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a corresponding argument in a parameter array using a specified format provider.
+AppendFormat(IFormatProvider, String, Object[]) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a single argument.
+AppendFormat(String, Object) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of two arguments.
+AppendFormat(String, Object, Object) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of three arguments.
+AppendFormat(String, Object, Object, Object) {
+
+}
+
+// Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a corresponding argument in a parameter array.
+AppendFormat(String, Object[]) {
+
+}
+
+// Appends the default line terminator to the end of the current StringBuilder object.
+AppendLine() {
+
+}
+
+// Appends a copy of the specified string followed by the default line terminator to the end of the current StringBuilder object.
+AppendLine(String) {
+
+}
+
+// Removes all characters from the current StringBuilder instance.
+Clear() {
+
+}
+
+// Copies the characters from a specified segment of this instance to a specified segment of a destination Char array.
+CopyTo(Int32, Char[], Int32, Int32) {
+
+}
+
+// Ensures that the capacity of this instance of StringBuilder is at least the specified value.
+EnsureCapacity(Int32) {
+
+}
+
+// Determines whether the specified object is equal to the current object.(Inherited from Object.)
+Equals(Object) {
+
+}
+
+// Returns a value indicating whether this instance is equal to a specified object.
+Equals(StringBuilder) {
+
+}
+
+// Serves as the default hash function. (Inherited from Object.) 
+GetHashCode() {
+
+}
+
+// Gets the Type of the current instance.(Inherited from Object.)
+GetType() {
+
+}
+
+// Inserts the string representation of a Boolean value into this instance at the specified character position.
+Insert(Int32, Boolean) {
+
+}
+
+// Inserts the string representation of a specified 8-bit unsigned integer into this instance at the specified character position.
+Insert(Int32, Byte) {
+
+}
+
+// Inserts the string representation of a specified Unicode character into this instance at the specified character position.
+Insert(Int32, Char) {
+
+}
+
+// Inserts the string representation of a specified array of Unicode characters into this instance at the specified character position.
+Insert(Int32, Char[]) {
+
+}
+
+// Inserts the string representation of a specified subarray of Unicode characters into this instance at the specified character position.
+Insert(Int32, Char[], Int32, Int32) {
+
+}
+
+// Inserts the string representation of a decimal number into this instance at the specified character position.
+Insert(Int32, Decimal) {
+
+}
+
+// Inserts the string representation of a double-precision floating-point number into this instance at the specified character position.
+Insert(Int32, Double) {
+
+}
+
+// Inserts the string representation of a specified 16-bit signed integer into this instance at the specified character position.
+Insert(Int32, Int16) {
+
+}
+
+// Inserts the string representation of a specified 32-bit signed integer into this instance at the specified character position.
+Insert(Int32, Int32) {
+
+}
+
+// Inserts the string representation of a 64-bit signed integer into this instance at the specified character position.
+Insert(Int32, Int64) {
+
+}
+
+// Inserts the string representation of an object into this instance at the specified character position.
+Insert(Int32, Object) {
+
+}
+
+// Inserts the string representation of a specified 8-bit signed integer into this instance at the specified character position.
+Insert(Int32, SByte) {
+
+}
+
+// Inserts the string representation of a single-precision floating point number into this instance at the specified character position.
+Insert(Int32, Single) {
+
+}
+
+// Inserts a string into this instance at the specified character position.
+Insert(Int32, String) {
+
+}
+
+// Inserts one or more copies of a specified string into this instance at the specified character position.
+Insert(Int32, String, Int32) {
+
+}
+
+// Inserts the string representation of a 16-bit unsigned integer into this instance at the specified character position.
+Insert(Int32, UInt16) {
+
+}
+
+// Inserts the string representation of a 32-bit unsigned integer into this instance at the specified character position.
+Insert(Int32, UInt32) {
+
+}
+
+// Inserts the string representation of a 64-bit unsigned integer into this instance at the specified character position.
+Insert(Int32, UInt64) {
+
+}
+
+// Removes the specified range of characters from this instance.
+Remove(Int32, Int32) {
+
+}
+
+// Replaces all occurrences of a specified character in this instance with another specified character.
+Replace(Char, Char) {
+
+}
+
+// Replaces, within a substring of this instance, all occurrences of a specified character with another specified character.
+Replace(Char, Char, Int32, Int32) {
+
+}
+
+// Replaces all occurrences of a specified string in this instance with another specified string.
+Replace(String, String) {
+
+}
+
+// Replaces, within a substring of this instance, all occurrences of a specified string with another specified string.
+Replace(String, String, Int32, Int32) {
+
+}
+
+// Converts the value of this instance to a String.(Overrides Object.ToString().)
+ToString() {
+
+}
+
+// Converts the value of a substring of this instance to a String.
+ToString(Int32, Int32) {
+
+}
