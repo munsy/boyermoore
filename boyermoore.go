@@ -4,8 +4,8 @@ type BoyerMoore struct {
 	ToSearch string
 }
 
-func NewBoyerMoore(searchString string) *StringBuilder {
-	return &StringBuilder{
+func NewBoyerMoore(searchString string) *BoyerMoore {
+	return &BoyerMoore{
 		searchString,
 	}
 }
